@@ -30,7 +30,13 @@
   <style>
     .container {
       display: grid;
+      height: 600px;
       grid-gap: 20px;
+      border: 10px solid var(--yellow);
+      grid-template-columns: auto 1fr;
+      /* fr or, fractional unit, or free space, tells the item 
+      to take up the remaining space, per the number you give it.
+      basically, don't use percentages and do the math agains the grid gap. */
     }
   </style>
 </body>
